@@ -67,6 +67,24 @@ main{
   padding: 10px;
 }
 
+.button {
+    background-color: #4CAF50; /* Green background */
+    border: none; /* Remove default border */
+    color: white; /* White text */
+    padding: 15px 32px; /* Add padding for size */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make it behave like a block element for sizing */
+    font-size: 16px;
+    cursor: pointer; /* Change cursor to a hand on hover */
+    border-radius: 8px; /* Rounded corners */
+}
+
+/* Optional: Add hover effect */
+.button:hover {
+    background-color: #45a049;
+}
+
 /*Footer*/
 footer{
   border-top: black 3px solid;
